@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: pmsc-player
+    env: static
+    staticPublishPath: public
+    buildCommand: ""
+    plan: free
